@@ -1,13 +1,14 @@
-import { EventHandling } from '../components/eventHandling'
-import './App.css'
+import { EventHandling } from "../components/eventHandling";
+import { EventProps } from "../components/EventProps";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-    <EventHandling />
+      <EventHandling />
+      <EventProps />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
